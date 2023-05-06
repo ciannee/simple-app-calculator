@@ -2,12 +2,12 @@
 # Section: BSCPE 1-5
 # Assigment 5: Simple App Calculator
 
-# looping: 
+# while loop: 
 simple_calculator = ""
-while simple_calculator != "NO"
+while simple_calculator != "NO":
 
     # ask user for input: math operations
-
+    operation = input("\n\033[01mHi! Pleases choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision")
     # ask user for input: float
 
     # addition

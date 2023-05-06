@@ -1,4 +1,3 @@
-# simple-app-calculator
 # Create a Simple App Calculator
 1.  The application will ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication and Division)
 2.  The application will ask the user for two numbers

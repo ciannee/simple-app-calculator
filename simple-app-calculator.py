@@ -25,7 +25,10 @@ while simple_calculator != "NO":
         subtraction = (float(num1) - float(num2))
         print (subtraction)
     # multiplication
-
+    if operation.upper() == "MULTIPLICATION":
+        print("We'll be performing multiplication on", num1, "and", num2)
+        multiplication = (float(num1) * float(num2))
+        print (multiplication)
     # division
 
 # looping: ask user to try again

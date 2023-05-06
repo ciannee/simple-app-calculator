@@ -12,17 +12,18 @@ while simple_calculator != "NO":
     # ask user for input: float
     print ("\n\nGreat! Please enter two numbers of your choice!")
     num1 = input ("Enter your first number: ")
-    print("Your first value is: ", num1)
     num2 = input ("\nEnter your second number: ")
-    print("Your second value is: ", num2)
 
     # addition
-    if operation == "Addition":
+    if operation.upper() == "ADDITION":
         print("We'll be performing addition on", num1, "and", num2)
-        addition = (float(num1)+ float(num2))
+        addition = (float(num1) + float(num2))
         print (addition)
     # subtraction
-
+    if operation.upper() == "SUBTRACTION":
+        print("We'll be performing subtraction on", num1, "and", num2)
+        subtraction = (float(num1) - float(num2))
+        print (subtraction)
     # multiplication
 
     # division

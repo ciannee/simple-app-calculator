@@ -16,21 +16,24 @@ while simple_calculator != "NO":
 
     # addition
     if operation.upper() == "ADDITION":
-        print("We'll be performing addition on", num1, "and", num2)
+        print("\nWe'll be performing addition on", num1, "and", num2)
         addition = (float(num1) + float(num2))
         print (addition)
     # subtraction
     if operation.upper() == "SUBTRACTION":
-        print("We'll be performing subtraction on", num1, "and", num2)
+        print("\nWe'll be performing subtraction on", num1, "and", num2)
         subtraction = (float(num1) - float(num2))
         print (subtraction)
     # multiplication
     if operation.upper() == "MULTIPLICATION":
-        print("We'll be performing multiplication on", num1, "and", num2)
+        print("\nWe'll be performing multiplication on", num1, "and", num2)
         multiplication = (float(num1) * float(num2))
         print (multiplication)
     # division
-
+    if operation.upper() == "DIVISION":
+        print("\nWe'll be performing division on", num1, "and", num2)
+        division = (float(num1) / float(num2))
+        print (division)
 # looping: ask user to try again
 
     # if yes

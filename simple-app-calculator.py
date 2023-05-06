@@ -3,6 +3,8 @@
 # Assigment 5: Simple App Calculator
 
 # looping: 
+simple_calculator = ""
+while simple_calculator != "NO"
 
     # ask user for input: math operations
 

@@ -34,10 +34,16 @@ while simple_calculator != "NO":
         print("\nWe'll be performing division on", num1, "and", num2)
         division = (float(num1) / float(num2))
         print (division)
-# looping: ask user to try again
 
+    # looping: ask user to try again
+    simple_calculator = input("Do you want to try again? ")
+    
     # if yes
+    if simple_calculator.upper() == "YES":
+        print("STARTING.....")
 
     # if no
-
-    # else invalid input
+    else: 
+        simple_calculator.upper() == "NO"
+        print("THANK YOU!")
+        break

@@ -17,7 +17,10 @@ while simple_calculator != "NO":
     print("Your second value is: ", num2)
 
     # addition
-    
+    if operation == "Addition":
+        print("We'll be performing addition on", num1, "and", num2)
+        addition = (float(num1)+ float(num2))
+        print (addition)
     # subtraction
 
     # multiplication

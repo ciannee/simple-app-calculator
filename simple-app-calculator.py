@@ -25,22 +25,26 @@ while simple_calculator != "NO":
 
     # addition
     if operation.upper() == "ADDITION":
-        print("\nWe'll be performing addition on", num1, "and", num2)
-        addition = (float(num1) + float(num2))
-        print("\n\033[36mSTARTING..........")
-        time.sleep(3)
-        print("\n  █▒▒▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  █████▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███████▒▒▒")
-        time.sleep(1)
-        print("\n  ██████████")
-        import time
-        time.sleep(3)
-        print ("\n", addition)
+        try:
+            print("\nWe'll be performing addition on", num1, "and", num2)
+        except:
+            print("oh no, may mali!")
+        finally:
+            addition = (float(num1) + float(num2))
+            print("\n\033[36mSTARTING..........")
+            time.sleep(3)
+            print("\n  █▒▒▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  █████▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███████▒▒▒")
+            time.sleep(1)
+            print("\n  ██████████")
+            import time
+            time.sleep(3)
+            print ("\n", addition)
     # subtraction
     if operation.upper() == "SUBTRACTION":
         print("\nWe'll be performing subtraction on", num1, "and", num2)
@@ -61,40 +65,48 @@ while simple_calculator != "NO":
         print ("\n", subtraction)
     # multiplication
     if operation.upper() == "MULTIPLICATION":
-        print("\nWe'll be performing multiplication on", num1, "and", num2)
-        multiplication = (float(num1) * float(num2))
-        print("\n\033[36mSTARTING..........")
-        time.sleep(3)
-        print("\n  █▒▒▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  █████▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███████▒▒▒")
-        time.sleep(1)
-        print("\n  ██████████")
-        import time
-        time.sleep(3)
-        print ("\n", multiplication)
+        try:
+            print("\nWe'll be performing multiplication on", num1, "and", num2)
+        except:
+            print("hala may mali!")
+        finally:
+            multiplication = (float(num1) * float(num2))
+            print("\n\033[36mSTARTING..........")
+            time.sleep(3)
+            print("\n  █▒▒▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  █████▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███████▒▒▒")
+            time.sleep(1)
+            print("\n  ██████████")
+            import time
+            time.sleep(3)
+            print ("\n", multiplication)
     # division
     if operation.upper() == "DIVISION":
-        print("\nWe'll be performing division on", num1, "and", num2)
-        division = (float(num1) / float(num2))
-        print("\n\033[36mSTARTING..........")
-        time.sleep(3)
-        print("\n  █▒▒▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███▒▒▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  █████▒▒▒▒▒")
-        time.sleep(1)
-        print("\n  ███████▒▒▒")
-        time.sleep(1)
-        print("\n  ██████████")
-        import time
-        time.sleep(3)
-        print ("\n", division)
+        try:
+            print("\nWe'll be performing division on", num1, "and", num2)
+        except:
+            print("oh no! may mali!")
+        finally:
+            division = (float(num1) / float(num2))
+            print("\n\033[36mSTARTING..........")
+            time.sleep(3)
+            print("\n  █▒▒▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███▒▒▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  █████▒▒▒▒▒")
+            time.sleep(1)
+            print("\n  ███████▒▒▒")
+            time.sleep(1)
+            print("\n  ██████████")
+            import time
+            time.sleep(3)
+            print ("\n", division)
 
     # looping: ask user to try again
     simple_calculator = input("\nDo you want to try again? ")

@@ -6,9 +6,18 @@
 simple_calculator = ""
 while simple_calculator != "NO":
 
-    # ask user for input: math operations
-    operation = input("\n\033[01mHi! Pleases choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")
+    # ask user's name
+    name = input("\n\033[01mPlease enter your name: ")
+    import time
+    time.sleep(3)
+
+    print("Hi,", name, "I have prepared a simple calculator for you!")
    
+    # ask user for input: math operations
+    operation = input("\n\033[01m\nPlease choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")
+    import time
+    time.sleep(2)
+
     # ask user for input: float
     print ("\n\nGreat! Please enter two numbers of your choice!")
     num1 = input ("Enter your first number: ")
@@ -18,25 +27,77 @@ while simple_calculator != "NO":
     if operation.upper() == "ADDITION":
         print("\nWe'll be performing addition on", num1, "and", num2)
         addition = (float(num1) + float(num2))
-        print (addition)
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
+        print ("\n", addition)
     # subtraction
     if operation.upper() == "SUBTRACTION":
         print("\nWe'll be performing subtraction on", num1, "and", num2)
         subtraction = (float(num1) - float(num2))
-        print (subtraction)
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
+        print ("\n", subtraction)
     # multiplication
     if operation.upper() == "MULTIPLICATION":
         print("\nWe'll be performing multiplication on", num1, "and", num2)
         multiplication = (float(num1) * float(num2))
-        print (multiplication)
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
+        print ("\n", multiplication)
     # division
     if operation.upper() == "DIVISION":
         print("\nWe'll be performing division on", num1, "and", num2)
         division = (float(num1) / float(num2))
-        print (division)
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
+        print ("\n", division)
 
     # looping: ask user to try again
-    simple_calculator = input("Do you want to try again? ")
+    simple_calculator = input("\nDo you want to try again? ")
     
     # if yes
     if simple_calculator.upper() == "YES":

@@ -44,7 +44,7 @@ while simple_calculator != "NO":
             print("\n  ██████████")
             import time
             time.sleep(3)
-            print ("\n", addition)
+            print ("\nResult = ", addition)
     # subtraction
     if operation.upper() == "SUBTRACTION":
         print("\nWe'll be performing subtraction on", num1, "and", num2)
@@ -62,7 +62,7 @@ while simple_calculator != "NO":
         print("\n  ██████████")
         import time
         time.sleep(3)
-        print ("\n", subtraction)
+        print ("\nResult = ", subtraction)
     # multiplication
     if operation.upper() == "MULTIPLICATION":
         try:
@@ -84,29 +84,28 @@ while simple_calculator != "NO":
             print("\n  ██████████")
             import time
             time.sleep(3)
-            print ("\n", multiplication)
+            print ("\nResult = ", multiplication)
     # division
     if operation.upper() == "DIVISION":
+        print("\nWe'll be performing division on", num1, "and", num2)
+        print("\n\033[36mSTARTING..........")
+        time.sleep(3)
+        print("\n  █▒▒▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███▒▒▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  █████▒▒▒▒▒")
+        time.sleep(1)
+        print("\n  ███████▒▒▒")
+        time.sleep(1)
+        print("\n  ██████████")
+        import time
+        time.sleep(3)
         try:
-            print("\nWe'll be performing division on", num1, "and", num2)
-        except:
-            print("oh no! may mali!")
-        finally:
             division = (float(num1) / float(num2))
-            print("\n\033[36mSTARTING..........")
-            time.sleep(3)
-            print("\n  █▒▒▒▒▒▒▒▒▒")
-            time.sleep(1)
-            print("\n  ███▒▒▒▒▒▒▒")
-            time.sleep(1)
-            print("\n  █████▒▒▒▒▒")
-            time.sleep(1)
-            print("\n  ███████▒▒▒")
-            time.sleep(1)
-            print("\n  ██████████")
-            import time
-            time.sleep(3)
-            print ("\n", division)
+        except ZeroDivisionError:
+            division = 0
+        print("\nResult = ", division)
 
     # looping: ask user to try again
     simple_calculator = input("\nDo you want to try again? ")

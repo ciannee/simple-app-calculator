@@ -2,20 +2,19 @@
 # Section: BSCPE 1-5
 # Assigment 5: Simple App Calculator
 
+import time
 # while loop: 
 simple_calculator = ""
 while simple_calculator != "NO":
 
     # ask user's name
     name = input("\n\033[01mPlease enter your name: ")
-    import time
     time.sleep(3)
 
     print("Hi,", name, "I have prepared a simple calculator for you!")
    
     # ask user for input: math operations
     operation = input("\n\033[01m\nPlease choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")
-    import time
     time.sleep(2)
 
     # ask user for input: float
@@ -42,7 +41,6 @@ while simple_calculator != "NO":
             print("\n  ███████▒▒▒")
             time.sleep(1)
             print("\n  ██████████")
-            import time
             time.sleep(3)
             print ("\nResult = ", addition)
     # subtraction
@@ -60,7 +58,6 @@ while simple_calculator != "NO":
         print("\n  ███████▒▒▒")
         time.sleep(1)
         print("\n  ██████████")
-        import time
         time.sleep(3)
         print ("\nResult = ", subtraction)
     # multiplication
@@ -82,7 +79,6 @@ while simple_calculator != "NO":
             print("\n  ███████▒▒▒")
             time.sleep(1)
             print("\n  ██████████")
-            import time
             time.sleep(3)
             print ("\nResult = ", multiplication)
     # division
@@ -99,7 +95,6 @@ while simple_calculator != "NO":
         print("\n  ███████▒▒▒")
         time.sleep(1)
         print("\n  ██████████")
-        import time
         time.sleep(3)
         try:
             division = (float(num1) / float(num2))
